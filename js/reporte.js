@@ -227,4 +227,3 @@ async function fetchExcelFile() {
     const href = `${API_URL}/pertenencia/generar-excel`;
     window.open(href, "_blank");
 }
-
