@@ -1,3 +1,10 @@
+window.onload = function() {
+    // Show alert message with default credentials
+    const alertMessage = document.getElementById('alert-message');
+    alertMessage.style.display = 'block';
+
+};
+
 function login() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
